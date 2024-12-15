@@ -12,3 +12,8 @@ def chat(request):
 def log(request):
     return render(request, "log.html")
     
+
+
+
+def signup(request):
+    return render(request, "signup.html")
