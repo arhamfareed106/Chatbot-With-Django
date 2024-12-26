@@ -1,4 +1,5 @@
+from os import remove
 from django.shortcuts import render
 
 # Create your views here.
-def  
+remove('chatgpt/settings.py')
