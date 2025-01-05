@@ -17,14 +17,3 @@ def index(request):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
