@@ -10,3 +10,10 @@ class Chat(models.Model):
 
     def __str__(self):
         return self.name
+    
+    
+    
+class Room(models.Model):
+    name = models.CharField(max_length=100)
+    label = models.SlugField(unique=True)
+
