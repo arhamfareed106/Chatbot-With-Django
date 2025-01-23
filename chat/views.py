@@ -7,30 +7,3 @@ client = OpenAI(api_key='')
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
