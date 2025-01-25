@@ -14,6 +14,11 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 
 from pathlib import Path
+import os
+
+GENERATIVE_AI_KEY = os.getenv('GENERATIVE_AI_KEY')
+if not GENERATIVE_AI_KEY:
+    raise ValueError('GENERATIVE_AI_KEY environment variable not set')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
